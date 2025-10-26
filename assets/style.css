@@ -1,0 +1,5 @@
+body { min-height: 100vh; background: #111; }
+.card { transition: .2s; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(0, 255, 0, 0.3); }
+.form-control, .form-select { background: #333; border: 1px solid #555; color: #fff; }
+.form-control::placeholder { color: #aaa; }
